@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url(https://pixabay.com/get/g2e77defe800eea92de94f8a61b990e18b5ad3d1c1600d14c0d2877197505ecc24243efb9d2f44d9f6eb22cfcd48b360cd9d1a0eff36fbbcb50c95d55d8e83a63b486cc1a977a2180aee63ce94206a2f5_1920.jpg);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.left-card{
+    width: 40vw;
+    height: 30vh;
+    margin: 5px;
+    background-color: red;
+    border: black;
+    border-style: solid;
+} 
+
+.right-card {
+    width: 40vw;
+    height: 30vh;
+    margin: 5px;
+    background-color: red;
+    border: black;
+    border-style: solid;
+}
