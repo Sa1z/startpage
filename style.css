@@ -16,6 +16,13 @@ body {
     background-image: url(/startpage/background/rain-g2fb5cb23c_1920.jpg);
 }
 
+.page-title {
+    position: absolute;
+    top: 50px;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
@@ -28,5 +35,11 @@ body {
     width: 40vw;
     height: 30vh;
     margin: 5px;
+    box-shadow: 2px 2px 4px black;
     background-color: rgba(255, 255, 255, 0.2);
-} 
+}
+
+.right-card img {
+    display: flex;
+    width: 15%;
+}
