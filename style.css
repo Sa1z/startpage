@@ -13,7 +13,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url(/startpage/background/rain-g2fb5cb23c_1920.jpg);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Resolution-high-tree-minimal-wallpaper-wallpapers.jpg);
 }
 
 .page-title {
@@ -39,7 +39,25 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.right-card img {
+
+
+.top-icons {
     display: flex;
-    width: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons img {
+    width: 100%;
+    max-width: 5.5vw;
+    height: auto;
+    margin: 5px;
+    -webkit-filter: drop-shadow(2px 2px 5px #222);
+    filter: drop-shadow(2px 2px 5px #222);
 }
