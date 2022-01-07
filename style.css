@@ -24,7 +24,7 @@ body {
     font-size: 90px;
 }
 
-.search-div {
+.search-form {
     position: absolute;
     top: 250px;
 }
@@ -38,8 +38,9 @@ body {
     margin-right: 5px;
 }
 
-.search-div button {
+.search-form button {
     border: none;
+    border-radius: 5px;
     box-shadow: 2px 2px 4px black;
     background-color: rgba(255, 255, 255, 0.8);
     margin-left: 5px;
